@@ -175,7 +175,7 @@ function App() {
     swipeToSlide: true,
     cssEase: "none", // <-- no built-in easing
     autoplay: true,
-    autoplaySpeed: 7200,
+    autoplaySpeed: 7000,
     pauseOnHover: false,
     useTransform: true,
     easing: "easeInOut",
@@ -200,8 +200,8 @@ function App() {
         }
         return oldProgress + 1;
       });
-    }, 72);
-  
+    }, 70);
+
     return () => clearInterval(interval);
   }, []);
 
