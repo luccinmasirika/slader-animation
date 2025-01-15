@@ -15,7 +15,7 @@
   }
 
   80% {
-		transform: scale(1.01);
+		transform: scale(1.1);
 	}
 
 	100% {
@@ -32,7 +32,7 @@
   }
 
   80% {
-    transform: scale(1.01);
+    transform: scale(1.1);
 	}
 
 	100% {
@@ -45,7 +45,7 @@
     transform: scale(1);
   }
   5% {
-    transform: scale(1.2);
+    transform: scale(1.1);
   }
   80% {
     transform: scale(1);
@@ -65,7 +65,7 @@
   }
 
   80% {
-    transform: translateX(0) scale(1.01);
+    transform: translateX(0) scale(1.1);
   }
 
   100% {
@@ -83,7 +83,7 @@
   }
 
   80% {
-    transform: scale(1.01);
+    transform: scale(1.1);
   }
 
   100% {
