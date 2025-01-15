@@ -1,0 +1,140 @@
+.App {
+  text-align: center;
+  font-family: "Unbounded", serif;
+  font-optical-sizing: auto;
+  color: rgb(251, 198, 47);
+}
+
+@keyframes topImage {
+	0% {
+		transform: translateY(-550px);
+	}
+
+  5% {
+    transform: translateY(0);
+  }
+
+  90% {
+		transform: scale(1.1);
+	}
+
+	100% {
+    transform: translateY(-550px) scale(2);
+	}
+}
+
+@keyframes bottomImage {
+	0% {
+	}
+
+  5% {
+    transform: scale(1);
+  }
+
+  90% {
+    transform: scale(1.1);
+	}
+
+	100% {
+    transform: translateY(2000px) scale(5);
+	}
+}
+
+@keyframes zoomOut {
+  0% {
+    transform: scale(1);
+  }
+  5% {
+    transform: scale(1.5);
+  }
+  90% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(10);
+  }
+}
+
+@keyframes leftImage {
+  0% {
+    transform: translateX(-550px);
+  }
+
+  5% {
+    transform: translateX(0);
+  }
+
+  90% {
+    transform: translateX(0) scale(1.1);
+  }
+
+  100% {
+    transform: scale(10);
+  }
+}
+
+@keyframes rightImage {
+  0% {
+    transform: translateX(550px);
+  }
+
+  5% {
+    transform: translateX(0);
+  }
+
+  90% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(10);
+  }
+}
+
+@keyframes zoomInText {
+  0% {
+    transform: scale(0.2);
+  }
+  5% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  90% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(50);
+    opacity: 0; 
+  }
+}
+
+/* Classes d'animation */
+.topImage {
+  animation: topImage 8s linear 0s 1 normal forwards;
+}
+
+.bottomImage {
+  animation: bottomImage 8s linear 0s 1 normal forwards;
+}
+
+.leftImage {
+  animation: leftImage 8s linear 0s 1 normal forwards;
+}
+
+.rightImage {
+  animation: rightImage 8s linear 0s 1 normal forwards;
+}
+
+.zoomOut {
+  animation: zoomOut 8s linear 0s forwards;
+}
+
+.zoomInText {
+  animation: zoomInText 8s linear 0s forwards;
+}
+
+.btn:hover {
+  background: rgb(251, 198, 47);
+  color: white;
+}
